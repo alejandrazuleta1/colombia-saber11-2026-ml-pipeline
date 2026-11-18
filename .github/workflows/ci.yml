@@ -14,7 +14,7 @@ jobs:
           python-version: "3.11"
       - run: pip install -e ".[dev]"
       - run: ruff check .
-      - run: pytest --cov=ml_base
+      - run: pytest --cov=saber_ml
 
   docker:
     runs-on: ubuntu-latest

@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient
 
-from ml_base.api import app
+from saber_ml.api import app
 
 client = TestClient(app)
 
