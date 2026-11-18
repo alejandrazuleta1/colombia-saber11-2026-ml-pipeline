@@ -1,5 +1,5 @@
 [project]
-name = "ml-base"
+name = "saber-ml"
 version = "0.1.0"
 description = "Pipeline end-to-end de ML con API y CI/CD"
 readme = "README.md"
